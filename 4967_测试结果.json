@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "tests_run": 18,
+  "passed": 18,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "elapsed_seconds": 0.759231,
+  "per_test": [
+    {
+      "test": "test_01_fixture_route_counts_six_kinds_endpoints_and_byte_reproduction",
+      "status": "passed",
+      "elapsed_seconds": 0.026597
+    },
+    {
+      "test": "test_02_parse_both_sources_matches_all_independent_geometry_and_protected_xml",
+      "status": "passed",
+      "elapsed_seconds": 0.02444
+    },
+    {
+      "test": "test_03_output_keeps_canvas_state_all_35_geometries_and_exact_two_pipe_strokes",
+      "status": "passed",
+      "elapsed_seconds": 0.02933
+    },
+    {
+      "test": "test_04_each_of_the_six_kinds_converts_as_an_isolated_puzzle_hint",
+      "status": "passed",
+      "elapsed_seconds": 0.022603
+    },
+    {
+      "test": "test_05_pipe_is_valid_only_in_pipe_mode_and_cannot_be_reprocessed_as_rail",
+      "status": "passed",
+      "elapsed_seconds": 0.006232
+    },
+    {
+      "test": "test_06_printable_labels_and_all_protected_attributes_remain_exact",
+      "status": "passed",
+      "elapsed_seconds": 0.007033
+    },
+    {
+      "test": "test_07_root_namespace_canvas_marker_state_and_mode_are_strict",
+      "status": "passed",
+      "elapsed_seconds": 0.011467
+    },
+    {
+      "test": "test_08_four_layers_complete_grid_numbers_labels_and_unique_ids_required",
+      "status": "passed",
+      "elapsed_seconds": 0.012441
+    },
+    {
+      "test": "test_09_dtd_entities_scripts_external_images_css_and_invalid_utf8_rejected",
+      "status": "passed",
+      "elapsed_seconds": 0.012588
+    },
+    {
+      "test": "test_10_protected_numeric_color_font_and_leaf_constraints",
+      "status": "passed",
+      "elapsed_seconds": 0.019839
+    },
+    {
+      "test": "test_11_track_cell_id_kind_bounds_and_occupancy_metadata_strict",
+      "status": "passed",
+      "elapsed_seconds": 0.013279
+    },
+    {
+      "test": "test_12_three_source_glyphs_require_exact_paints_widths_dash_and_path_count",
+      "status": "passed",
+      "elapsed_seconds": 0.013475
+    },
+    {
+      "test": "test_13_centerlines_must_be_canonical_and_identical_in_all_three_glyphs",
+      "status": "passed",
+      "elapsed_seconds": 0.010157
+    },
+    {
+      "test": "test_14_solution_requires_unbroken_connected_route_with_two_external_ends",
+      "status": "passed",
+      "elapsed_seconds": 0.019767
+    },
+    {
+      "test": "test_15_puzzle_partial_hints_need_not_be_connected_but_same_solution_rejected",
+      "status": "passed",
+      "elapsed_seconds": 0.007347
+    },
+    {
+      "test": "test_16_batch_preflights_all_inputs_limits_and_existing_output_before_writing",
+      "status": "passed",
+      "elapsed_seconds": 0.026933
+    },
+    {
+      "test": "test_17_real_cli_batch_five_outputs_are_deterministic_truthful_and_source_unchanged",
+      "status": "passed",
+      "elapsed_seconds": 0.42919
+    },
+    {
+      "test": "test_18_changed_source_and_real_windows_junction_paths_are_refused",
+      "status": "passed",
+      "elapsed_seconds": 0.04651
+    }
+  ],
+  "environment": {
+    "python": "3.12.8",
+    "system": "Windows"
+  },
+  "code_sha256": {
+    "4967_转换引擎.py": "a9a6ba0711d521ba148f427455c17656ee53fc036fc29c552b905463142dc63a",
+    "4967_自造谜题.py": "d33656720a7cbb8208683db5fb1a2892eb4718997a187576a64000849fc49598",
+    "4967_验收测试.py": "b0876b7f30d0f04c843f9ecbd93f145f717ad12bc1cd3c1d0c8458dfbb8b7014"
+  },
+  "code_unchanged_during_tests": true,
+  "source_files_sha256": {
+    "4967_原题.svg": "0c733ab2e7f6ede0e1b12ec8425a5d3f43b6291c24336ef264ac27c9993c6498",
+    "4967_答案.svg": "040a30a381b9cface6347f76957970df724b7917c5bcb915f6a27092ab0e24a1"
+  },
+  "all_sources_unchanged": true,
+  "puzzle_segments": 8,
+  "solution_segments": 27,
+  "total_converted_segments": 35,
+  "independent_six_kinds_verified": true,
+  "protected_groups_canonical_xml_verified": true,
+  "all_centerlines_and_endpoints_verified": true,
+  "independent_oracle": "Route adjacency and endpoint tuples, independent protected C14N and exact glyph attribute checks",
+  "network_used": false,
+  "raster_generated": false,
+  "customer_artwork_used": false,
+  "unique_solvability_claimed": false
+}

@@ -1,0 +1,645 @@
+{
+  "independent_synthetic_demo": true,
+  "converted_files": 2,
+  "total_segments": 35,
+  "protected_layers_unchanged": true,
+  "all_route_geometry_unchanged": true,
+  "source_bytes_unchanged": true,
+  "editable_vector_output": true,
+  "arbitrary_svg_supported": false,
+  "desktop_exe_delivered": false,
+  "files": [
+    {
+      "state": "puzzle",
+      "segments": 8,
+      "protected_unchanged": true,
+      "geometry_unchanged": true,
+      "black_white_only": true,
+      "editable_paths": true,
+      "canvas": "160mm × 160mm",
+      "view_box": "0 0 600 600",
+      "input_sha256": "0c733ab2e7f6ede0e1b12ec8425a5d3f43b6291c24336ef264ac27c9993c6498",
+      "output_sha256": "437fd98f6a4126cadf15618eb4c9e506a0c15bd3115c81d7559b2bd088e182f9",
+      "protected_sha256": {
+        "grid": "35c4d0915af7f6d0af19f24930cbe42e1be59365265745ef389d518cd1b73f88",
+        "numbers": "ffd324dddb017258c7cc622265bbe6934723658d5d2e2f0664e09bdca0efd33f",
+        "labels": "b464eb8b2b66a2ec195a7766a8e22075843e8e9dec213f44fdd52b543d48aa41"
+      },
+      "geometry": [
+        {
+          "row": 0,
+          "col": 0,
+          "kind": "EW",
+          "d": "M 120 150 L 180 150",
+          "endpoints": [
+            [
+              180,
+              150
+            ],
+            [
+              120,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "kind": "SW",
+          "d": "M 270 180 Q 270 150 240 150",
+          "endpoints": [
+            [
+              270,
+              180
+            ],
+            [
+              240,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "kind": "SE",
+          "d": "M 330 180 Q 330 150 360 150",
+          "endpoints": [
+            [
+              330,
+              180
+            ],
+            [
+              360,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "kind": "SW",
+          "d": "M 210 240 Q 210 210 180 210",
+          "endpoints": [
+            [
+              210,
+              240
+            ],
+            [
+              180,
+              210
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "kind": "EW",
+          "d": "M 300 330 L 360 330",
+          "endpoints": [
+            [
+              360,
+              330
+            ],
+            [
+              300,
+              330
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "kind": "NE",
+          "d": "M 150 360 Q 150 390 180 390",
+          "endpoints": [
+            [
+              150,
+              360
+            ],
+            [
+              180,
+              390
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "kind": "NE",
+          "d": "M 330 420 Q 330 450 360 450",
+          "endpoints": [
+            [
+              330,
+              420
+            ],
+            [
+              360,
+              450
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "kind": "EW",
+          "d": "M 420 450 L 480 450",
+          "endpoints": [
+            [
+              480,
+              450
+            ],
+            [
+              420,
+              450
+            ]
+          ]
+        }
+      ],
+      "boundary_endpoints": [
+        [
+          0,
+          0,
+          "W"
+        ],
+        [
+          5,
+          5,
+          "E"
+        ]
+      ],
+      "solution_connectivity_checked": false,
+      "unique_solvability_claimed": false,
+      "source_name": "4967_原题.svg",
+      "source_sha256": "0c733ab2e7f6ede0e1b12ec8425a5d3f43b6291c24336ef264ac27c9993c6498",
+      "output_name": "4967_001_水管.svg"
+    },
+    {
+      "state": "solution",
+      "segments": 27,
+      "protected_unchanged": true,
+      "geometry_unchanged": true,
+      "black_white_only": true,
+      "editable_paths": true,
+      "canvas": "160mm × 160mm",
+      "view_box": "0 0 600 600",
+      "input_sha256": "040a30a381b9cface6347f76957970df724b7917c5bcb915f6a27092ab0e24a1",
+      "output_sha256": "b68d2a2a4d13f42559278203204a4f128cc26615bfa1d1935cf8d7e8981d765d",
+      "protected_sha256": {
+        "grid": "35c4d0915af7f6d0af19f24930cbe42e1be59365265745ef389d518cd1b73f88",
+        "numbers": "ffd324dddb017258c7cc622265bbe6934723658d5d2e2f0664e09bdca0efd33f",
+        "labels": "b464eb8b2b66a2ec195a7766a8e22075843e8e9dec213f44fdd52b543d48aa41"
+      },
+      "geometry": [
+        {
+          "row": 0,
+          "col": 0,
+          "kind": "EW",
+          "d": "M 120 150 L 180 150",
+          "endpoints": [
+            [
+              180,
+              150
+            ],
+            [
+              120,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "kind": "EW",
+          "d": "M 180 150 L 240 150",
+          "endpoints": [
+            [
+              240,
+              150
+            ],
+            [
+              180,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "kind": "SW",
+          "d": "M 270 180 Q 270 150 240 150",
+          "endpoints": [
+            [
+              270,
+              180
+            ],
+            [
+              240,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "kind": "SE",
+          "d": "M 330 180 Q 330 150 360 150",
+          "endpoints": [
+            [
+              330,
+              180
+            ],
+            [
+              360,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "kind": "SW",
+          "d": "M 390 180 Q 390 150 360 150",
+          "endpoints": [
+            [
+              390,
+              180
+            ],
+            [
+              360,
+              150
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "kind": "SE",
+          "d": "M 150 240 Q 150 210 180 210",
+          "endpoints": [
+            [
+              150,
+              240
+            ],
+            [
+              180,
+              210
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "kind": "SW",
+          "d": "M 210 240 Q 210 210 180 210",
+          "endpoints": [
+            [
+              210,
+              240
+            ],
+            [
+              180,
+              210
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "kind": "NS",
+          "d": "M 270 180 L 270 240",
+          "endpoints": [
+            [
+              270,
+              180
+            ],
+            [
+              270,
+              240
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "kind": "NS",
+          "d": "M 330 180 L 330 240",
+          "endpoints": [
+            [
+              330,
+              180
+            ],
+            [
+              330,
+              240
+            ]
+          ]
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "kind": "NS",
+          "d": "M 390 180 L 390 240",
+          "endpoints": [
+            [
+              390,
+              180
+            ],
+            [
+              390,
+              240
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "kind": "NS",
+          "d": "M 150 240 L 150 300",
+          "endpoints": [
+            [
+              150,
+              240
+            ],
+            [
+              150,
+              300
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "kind": "NS",
+          "d": "M 210 240 L 210 300",
+          "endpoints": [
+            [
+              210,
+              240
+            ],
+            [
+              210,
+              300
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "kind": "NE",
+          "d": "M 270 240 Q 270 270 300 270",
+          "endpoints": [
+            [
+              270,
+              240
+            ],
+            [
+              300,
+              270
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "kind": "NW",
+          "d": "M 330 240 Q 330 270 300 270",
+          "endpoints": [
+            [
+              330,
+              240
+            ],
+            [
+              300,
+              270
+            ]
+          ]
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "kind": "NS",
+          "d": "M 390 240 L 390 300",
+          "endpoints": [
+            [
+              390,
+              240
+            ],
+            [
+              390,
+              300
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "kind": "NS",
+          "d": "M 150 300 L 150 360",
+          "endpoints": [
+            [
+              150,
+              300
+            ],
+            [
+              150,
+              360
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "kind": "NE",
+          "d": "M 210 300 Q 210 330 240 330",
+          "endpoints": [
+            [
+              210,
+              300
+            ],
+            [
+              240,
+              330
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "kind": "EW",
+          "d": "M 240 330 L 300 330",
+          "endpoints": [
+            [
+              300,
+              330
+            ],
+            [
+              240,
+              330
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "kind": "EW",
+          "d": "M 300 330 L 360 330",
+          "endpoints": [
+            [
+              360,
+              330
+            ],
+            [
+              300,
+              330
+            ]
+          ]
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "kind": "NW",
+          "d": "M 390 300 Q 390 330 360 330",
+          "endpoints": [
+            [
+              390,
+              300
+            ],
+            [
+              360,
+              330
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "kind": "NE",
+          "d": "M 150 360 Q 150 390 180 390",
+          "endpoints": [
+            [
+              150,
+              360
+            ],
+            [
+              180,
+              390
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "kind": "EW",
+          "d": "M 180 390 L 240 390",
+          "endpoints": [
+            [
+              240,
+              390
+            ],
+            [
+              180,
+              390
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "kind": "EW",
+          "d": "M 240 390 L 300 390",
+          "endpoints": [
+            [
+              300,
+              390
+            ],
+            [
+              240,
+              390
+            ]
+          ]
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "kind": "SW",
+          "d": "M 330 420 Q 330 390 300 390",
+          "endpoints": [
+            [
+              330,
+              420
+            ],
+            [
+              300,
+              390
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "kind": "NE",
+          "d": "M 330 420 Q 330 450 360 450",
+          "endpoints": [
+            [
+              330,
+              420
+            ],
+            [
+              360,
+              450
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "kind": "EW",
+          "d": "M 360 450 L 420 450",
+          "endpoints": [
+            [
+              420,
+              450
+            ],
+            [
+              360,
+              450
+            ]
+          ]
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "kind": "EW",
+          "d": "M 420 450 L 480 450",
+          "endpoints": [
+            [
+              480,
+              450
+            ],
+            [
+              420,
+              450
+            ]
+          ]
+        }
+      ],
+      "boundary_endpoints": [
+        [
+          0,
+          0,
+          "W"
+        ],
+        [
+          5,
+          5,
+          "E"
+        ]
+      ],
+      "solution_connectivity_checked": true,
+      "unique_solvability_claimed": false,
+      "source_name": "4967_答案.svg",
+      "source_sha256": "040a30a381b9cface6347f76957970df724b7917c5bcb915f6a27092ab0e24a1",
+      "output_name": "4967_002_水管.svg"
+    }
+  ]
+}

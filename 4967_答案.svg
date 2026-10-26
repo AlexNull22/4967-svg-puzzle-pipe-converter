@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="160mm" height="160mm" viewBox="0 0 600 600" data-demo="4967" data-mode="rail" data-state="solution">
+  <g id="grid">
+    <rect x="120" y="120" width="360" height="360" fill="white" stroke="black" stroke-width="2" />
+    <line x1="180" y1="120" x2="180" y2="480" stroke="black" stroke-width="2" />
+    <line x1="120" y1="180" x2="480" y2="180" stroke="black" stroke-width="2" />
+    <line x1="240" y1="120" x2="240" y2="480" stroke="black" stroke-width="2" />
+    <line x1="120" y1="240" x2="480" y2="240" stroke="black" stroke-width="2" />
+    <line x1="300" y1="120" x2="300" y2="480" stroke="black" stroke-width="2" />
+    <line x1="120" y1="300" x2="480" y2="300" stroke="black" stroke-width="2" />
+    <line x1="360" y1="120" x2="360" y2="480" stroke="black" stroke-width="2" />
+    <line x1="120" y1="360" x2="480" y2="360" stroke="black" stroke-width="2" />
+    <line x1="420" y1="120" x2="420" y2="480" stroke="black" stroke-width="2" />
+    <line x1="120" y1="420" x2="480" y2="420" stroke="black" stroke-width="2" />
+  </g>
+  <g id="numbers">
+    <text x="150" y="102" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="210" y="102" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="270" y="102" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="330" y="102" font-family="Arial" font-size="24" fill="black" text-anchor="middle">6</text>
+    <text x="390" y="102" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="450" y="102" font-family="Arial" font-size="24" fill="black" text-anchor="middle">1</text>
+    <text x="100" y="158" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="100" y="218" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="100" y="278" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="100" y="338" font-family="Arial" font-size="24" fill="black" text-anchor="middle">5</text>
+    <text x="100" y="398" font-family="Arial" font-size="24" fill="black" text-anchor="middle">4</text>
+    <text x="100" y="458" font-family="Arial" font-size="24" fill="black" text-anchor="middle">3</text>
+  </g>
+  <g id="labels">
+    <text x="120" y="43" font-family="Arial" font-size="22" fill="black">GRID ROUTE / DEMO 4967</text>
+    <text x="120" y="70" font-family="Arial" font-size="14" fill="black">CONTROLLED VECTOR SAMPLE</text>
+    <text x="120" y="535" font-family="Arial" font-size="13" fill="black">6 x 6 / SYNTHETIC TRAINING DATA</text>
+  </g>
+  <g id="tracks">
+    <g id="r0c0" data-row="0" data-col="0" data-kind="EW">
+      <path d="M 120 150 L 180 150" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 120 150 L 180 150" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 120 150 L 180 150" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r0c1" data-row="0" data-col="1" data-kind="EW">
+      <path d="M 180 150 L 240 150" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 180 150 L 240 150" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 180 150 L 240 150" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r0c2" data-row="0" data-col="2" data-kind="SW">
+      <path d="M 270 180 Q 270 150 240 150" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 270 180 Q 270 150 240 150" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 270 180 Q 270 150 240 150" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r1c2" data-row="1" data-col="2" data-kind="NS">
+      <path d="M 270 180 L 270 240" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 270 180 L 270 240" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 270 180 L 270 240" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r2c2" data-row="2" data-col="2" data-kind="NE">
+      <path d="M 270 240 Q 270 270 300 270" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 270 240 Q 270 270 300 270" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 270 240 Q 270 270 300 270" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r2c3" data-row="2" data-col="3" data-kind="NW">
+      <path d="M 330 240 Q 330 270 300 270" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 240 Q 330 270 300 270" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 240 Q 330 270 300 270" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r1c3" data-row="1" data-col="3" data-kind="NS">
+      <path d="M 330 180 L 330 240" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 180 L 330 240" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 180 L 330 240" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r0c3" data-row="0" data-col="3" data-kind="SE">
+      <path d="M 330 180 Q 330 150 360 150" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 180 Q 330 150 360 150" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 180 Q 330 150 360 150" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r0c4" data-row="0" data-col="4" data-kind="SW">
+      <path d="M 390 180 Q 390 150 360 150" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 180 Q 390 150 360 150" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 180 Q 390 150 360 150" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r1c4" data-row="1" data-col="4" data-kind="NS">
+      <path d="M 390 180 L 390 240" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 180 L 390 240" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 180 L 390 240" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r2c4" data-row="2" data-col="4" data-kind="NS">
+      <path d="M 390 240 L 390 300" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 240 L 390 300" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 240 L 390 300" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r3c4" data-row="3" data-col="4" data-kind="NW">
+      <path d="M 390 300 Q 390 330 360 330" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 300 Q 390 330 360 330" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 390 300 Q 390 330 360 330" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r3c3" data-row="3" data-col="3" data-kind="EW">
+      <path d="M 300 330 L 360 330" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 300 330 L 360 330" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 300 330 L 360 330" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r3c2" data-row="3" data-col="2" data-kind="EW">
+      <path d="M 240 330 L 300 330" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 240 330 L 300 330" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 240 330 L 300 330" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r3c1" data-row="3" data-col="1" data-kind="NE">
+      <path d="M 210 300 Q 210 330 240 330" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 210 300 Q 210 330 240 330" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 210 300 Q 210 330 240 330" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r2c1" data-row="2" data-col="1" data-kind="NS">
+      <path d="M 210 240 L 210 300" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 210 240 L 210 300" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 210 240 L 210 300" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r1c1" data-row="1" data-col="1" data-kind="SW">
+      <path d="M 210 240 Q 210 210 180 210" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 210 240 Q 210 210 180 210" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 210 240 Q 210 210 180 210" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r1c0" data-row="1" data-col="0" data-kind="SE">
+      <path d="M 150 240 Q 150 210 180 210" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 240 Q 150 210 180 210" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 240 Q 150 210 180 210" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r2c0" data-row="2" data-col="0" data-kind="NS">
+      <path d="M 150 240 L 150 300" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 240 L 150 300" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 240 L 150 300" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r3c0" data-row="3" data-col="0" data-kind="NS">
+      <path d="M 150 300 L 150 360" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 300 L 150 360" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 300 L 150 360" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r4c0" data-row="4" data-col="0" data-kind="NE">
+      <path d="M 150 360 Q 150 390 180 390" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 360 Q 150 390 180 390" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 150 360 Q 150 390 180 390" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r4c1" data-row="4" data-col="1" data-kind="EW">
+      <path d="M 180 390 L 240 390" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 180 390 L 240 390" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 180 390 L 240 390" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r4c2" data-row="4" data-col="2" data-kind="EW">
+      <path d="M 240 390 L 300 390" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 240 390 L 300 390" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 240 390 L 300 390" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r4c3" data-row="4" data-col="3" data-kind="SW">
+      <path d="M 330 420 Q 330 390 300 390" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 420 Q 330 390 300 390" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 420 Q 330 390 300 390" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r5c3" data-row="5" data-col="3" data-kind="NE">
+      <path d="M 330 420 Q 330 450 360 450" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 420 Q 330 450 360 450" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 330 420 Q 330 450 360 450" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r5c4" data-row="5" data-col="4" data-kind="EW">
+      <path d="M 360 450 L 420 450" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 360 450 L 420 450" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 360 450 L 420 450" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+    <g id="r5c5" data-row="5" data-col="5" data-kind="EW">
+      <path d="M 420 450 L 480 450" fill="none" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 420 450 L 480 450" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M 420 450 L 480 450" fill="none" stroke="black" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 9" />
+    </g>
+  </g>
+</svg>

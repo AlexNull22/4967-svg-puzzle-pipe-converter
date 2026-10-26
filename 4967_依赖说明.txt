@@ -1,0 +1,15 @@
+4967 矢量谜题主题转换工具：依赖说明
+
+按 Python 3.12 运行，使用 xml.etree.ElementTree、json、hashlib、pathlib、html 等标准库模块。
+运行BAT优先查找已存在的 bundled Python 3.12，再尝试已安装的 py -3.12。
+无需第三方包，无需图形云 SDK，也不需要账号、密码或密钥。
+
+本文件是中文环境说明，不是供 pip -r 安装的依赖文件。
+仓库不包含 Python 运行时，脚本不会自动下载或安装软件。
+HTML 预览需要能显示本地 SVG 的现代浏览器；输出 SVG 仍为可编辑矢量文件。
+
+可检查已安装环境：
+python --version
+python -c "import xml.etree.ElementTree, json, hashlib, pathlib, html"
+
+本次不提供完整 Windows EXE 或免 Python 安装包，不生成 PDF 或栅格替代图。
